@@ -1,4 +1,4 @@
-# KartRider-Evolved-Launcher
+# KartEvolvedLauncher
 
 
 # Changelog
