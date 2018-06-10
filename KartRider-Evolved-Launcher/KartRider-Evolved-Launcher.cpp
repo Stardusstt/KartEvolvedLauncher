@@ -4,7 +4,7 @@ using namespace std ;
 int main () {
 	int choice ; 
 	
-	cout << endl << " v1.0	By stardusstt" << endl << endl  ;
+	cout << endl << " v1.0	By Stardusstt" << endl << endl  ;
 	system("pause");
 	cout << endl ;
 	cout << " Start PPServer " << endl << endl ;
