@@ -1,0 +1,57 @@
+
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <cstdlib>
+
+using namespace std;
+int main() {
+
+	int p , pc=0 , l , t , tc = 7  ;
+	
+	
+	for ( l=1 ; l<=5 ; l++ )
+	{
+		
+		
+		if (l>=4)
+		{
+			pc = pc - 1;
+		}
+		else
+		{
+			pc = pc + 1;
+		}
+
+		for ( p=1 ; p<=pc ; p++ )
+		{
+			cout << " ";
+		}
+
+		
+		if (l >= 4)
+		{
+			tc = tc + 2;
+		}
+		else
+		{
+			tc = tc - 2;
+		}
+
+		for (t=1 ; t <= tc; t++)
+		{
+			cout << "*";
+		}
+		
+			cout << endl ;
+		
+	}
+
+	
+
+	system("pause");
+
+
+
+}
+
